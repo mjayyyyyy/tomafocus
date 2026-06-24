@@ -2,7 +2,7 @@
   "name": "TomaFocus",
   "short_name": "TomaFocus",
   "description": "A beautiful, aesthetic focus timer to boost your productivity.",
-  "start_url": "/index.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#2D2D2D",
   "theme_color": "#2D2D2D",

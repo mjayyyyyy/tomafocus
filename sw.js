@@ -1,10 +1,10 @@
 const CACHE_NAME = 'tomafocus-v1';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/icons/icon-192.svg',
-  '/icons/icon-512.svg'
+  './',
+  'index.html',
+  'manifest.json',
+  'icons/icon-192.svg',
+  'icons/icon-512.svg'
 ];
 
 // Install: cache all core assets
@@ -41,6 +41,6 @@ self.addEventListener('fetch', e => {
         }
         return response;
       });
-    }).catch(() => caches.match('/index.html'))
+    }).catch(() => caches.match('index.html'))
   );
 });
